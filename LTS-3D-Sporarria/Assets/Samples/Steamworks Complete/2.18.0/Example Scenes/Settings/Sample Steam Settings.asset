@@ -84,11 +84,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0265f2c01aac5409a0371f6b6e1c98, type: 3}
   m_Name: '[LdrBrd] Feet Traveled'
   m_EditorClassIdentifier: 
-  createIfMissing: 1
+  createIfMissing: 0
   sortMethod: 2
   displayType: 1
   leaderboardName: Feet Traveled
-  maxDetailEntries: 3
+  maxDetailEntries: 100
 --- !u!114 &-4452901256123024587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,9 +206,8 @@ MonoBehaviour:
     m_AppId: 480
   isDebugging: 1
   server:
-    autoInitalize: 1
+    autoInitialize: 0
     autoLogon: 1
-    enableMirror: 1
     ip: 0
     queryPort: 27016
     gamePort: 27015
